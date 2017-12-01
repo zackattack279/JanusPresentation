@@ -1,0 +1,235 @@
+{
+    "FireBoxRoom": {
+        "Assets": {
+            "AssetImage": [
+                {
+                    "id": "Portal",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "PortalSlide.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                },
+                {
+                    "id": "ImageSlide",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Image.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                },
+                {
+                    "id": "Intro",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Intro.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                },
+                {
+                    "id": "Dev",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Developers.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                },
+                {
+                    "id": "Mercator_projection_Image",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "cougar.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                },
+                {
+                    "id": "Obj",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Object.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                },
+                {
+                    "id": "4ways",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "4ways.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                },
+                {
+                    "id": "Multi",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Multiplayer.png",
+                    "tex_clamp": false,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true,
+                    "tex_premultiply": true
+                }
+            ],
+            "AssetObject": [
+                {
+                    "id": "triangle",
+                    "mtl": "triangle.mtl",
+                    "src": "triangle"
+                },
+                {
+                    "id": "Mercator_Projection_Screen",
+                    "src": "Mercator_Projection_Screen.obj"
+                }
+            ],
+            "AssetSound": [
+                {
+                    "id": "Park",
+                    "src": "Jurassic_Park_theme_song.mp3"
+                }
+            ],
+            "AssetWebSurface": [
+                {
+                    "height": 1000,
+                    "id": "Mercator_projection_Web",
+                    "src": "http://www.insert360webpagehere.com",
+                    "width": 2000
+                }
+            ]
+        },
+        "Room": {
+            "Image": [
+                {
+                    "id": "4ways",
+                    "js_id": "3",
+                    "pos": "11.8 1.2 -16",
+                    "scale": "2 2 1",
+                    "xdir": "0.866026 0 0.5",
+                    "zdir": "-0.5 0 0.866026"
+                },
+                {
+                    "id": "Portal",
+                    "js_id": "4",
+                    "pos": "-14.2 1.7 13.3",
+                    "scale": "2 2 1",
+                    "xdir": "-0.866025 0 -0.500001",
+                    "zdir": "0.500001 0 -0.866025"
+                },
+                {
+                    "id": "Multi",
+                    "js_id": "5",
+                    "pos": "-18.800001 1.1 6",
+                    "scale": "2 2 1",
+                    "xdir": "-0.258818 0 -0.965926",
+                    "zdir": "0.965926 0 -0.258818"
+                },
+                {
+                    "id": "Intro",
+                    "js_id": "6",
+                    "pos": "14.4 -0.8 -18.800001",
+                    "scale": "2.6 2.7 1",
+                    "xdir": "-0.866024 0 -0.500002",
+                    "zdir": "0.500002 0 -0.866024"
+                },
+                {
+                    "id": "Dev",
+                    "js_id": "7",
+                    "pos": "-0.1 1.3 -19.800001",
+                    "scale": "2 2 1"
+                },
+                {
+                    "id": "ImageSlide",
+                    "js_id": "8",
+                    "pos": "-11.8 1.1 -16",
+                    "scale": "2 2 1",
+                    "xdir": "0.866026 0 -0.5",
+                    "zdir": "0.5 0 0.866026"
+                },
+                {
+                    "id": "Obj",
+                    "js_id": "9",
+                    "pos": "-18.5 1.2 -6.5",
+                    "scale": "2 2 1",
+                    "xdir": "0.25882 0 -0.965926",
+                    "zdir": "0.965926 0 0.25882"
+                }
+            ],
+            "Link": [
+                {
+                    "col": "#ff0000",
+                    "js_id": "0",
+                    "pos": "-11.5 0.4 16",
+                    "scale": "2.6 3.2 0.1",
+                    "url": "https://www.reddit.com/r/VRsites/",
+                    "xdir": "-0.866024 0 -0.500002",
+                    "zdir": "0.500002 0 -0.866024"
+                }
+            ],
+            "Object": [
+                {
+                    "id": "Mercator_Projection_Screen",
+                    "image_id": "Mercator_projection_Image",
+                    "js_id": "2",
+                    "lighting": false,
+                    "pos": "0 -1.6 0",
+                    "scale": "10 15 10",
+                    "xdir": "-1 0 -0.000002",
+                    "zdir": "0.000002 0 -1"
+                },
+                {
+                    "col": "rgba(0, 255, 255, 0.98)",
+                    "collision_id": "sphere",
+                    "id": "sphere",
+                    "js_id": "Waifu Overlord Maximus Extremus-5-1512092707",
+                    "pos": "-17 3 -12",
+                    "scale": "2.9 2.9 2.9",
+                    "xdir": "0.744129 0 -0.668036",
+                    "zdir": "0.668036 0 0.744129"
+                }
+            ],
+            "Sound": [
+                {
+                    "id": "Park",
+                    "js_id": "1",
+                    "play_once": true,
+                    "pos": "14.4 -0.8 -19",
+                    "rect": "-100 -50 100 50"
+                }
+            ],
+            "pos": "19 0.2 -6.3",
+            "use_local_asset": "room6",
+            "walk_speed": 5,
+            "xdir": "0.25882 0 0.965926",
+            "ydir": "0 1 0",
+            "zdir": "-0.965926 0 0.25882"
+        }
+    }
+}
